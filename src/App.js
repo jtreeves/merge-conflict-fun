@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Mess from './Mess';
 
 function App() {
   return (
     <div className="App">
       <h1>JACKSON!!!!!!</h1>
       <header className="App-header">
+        <Mess />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
